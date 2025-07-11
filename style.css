@@ -7,3 +7,69 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-primary {
+    background-color: #582FFD;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #4a27d1;
+    transform: scale(1.05);
+}
+
+.section-title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+
+/* --- Header & Banner Section --- */
+.header-banner-container {
+    background-image: url('Assets/Hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #151515;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.nav-logo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px); /* Full height minus navbar approx height */
+    text-align: center;
+}
+
+.banner-title {
+    font-size: 48px;
+    font-weight: 700;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
