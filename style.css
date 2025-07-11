@@ -111,4 +111,101 @@ body {
     border-radius: 20px;
 }
 
+/* --- Productive Users Section --- */
+.productive-section {
+    padding: 60px 20px;
+    background-color: #f3f0ff;
+}
+
+.productive-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.productive-container h3 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.productive-stats {
+    display: flex;
+    justify-content: space-around;
+}
+
+.stat-item .stat-number {
+    font-size: 48px;
+    color: #582FFD;
+    font-weight: 700;
+}
+
+.stat-item p {
+    font-size: 16px;
+    color: #575757;
+}
+
+/* --- Review Section --- */
+.review-section {
+    padding: 80px 20px;
+}
+
+.review-card-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.review-card {
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 16px;
+    padding: 30px;
+    max-width: 350px;
+    text-align: center;
+}
+
+.review-card .stars {
+    color: #FFC700;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.review-card h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.review-card > p {
+    color: #575757;
+    margin-bottom: 20px;
+}
+
+.reviewer-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.reviewer-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.reviewer-info p {
+    margin: 0;
+    text-align: left;
+}
+.reviewer-name {
+    font-weight: 500;
+}
+.review-date {
+    font-size: 14px;
+    color: #8b8b8b;
+}
 
