@@ -256,3 +256,31 @@ body {
 .contact-form button {
     width: 100%;
 }
+/* --- Footer Section --- */
+.footer-section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #FAFAFA;
+}
+
+.footer-section h3 {
+    font-size: 28px;
+    color: #582FFD;
+    margin-bottom: 15px;
+}
+.footer-section > p {
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+    color: #575757;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.footer-links a {
+    text-decoration: none;
+    color: #151515;
+    font-weight: 500;
+}
